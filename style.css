@@ -1,0 +1,42 @@
+html,body{
+	background: rgb(96, 175, 168);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.container{
+	background: url('./img/62.jpg') no-repeat center;
+	width: 90%;
+	height: 100vh;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.text{
+	font-size: 7rem;
+	background: url('./img/christmas.jpg') no-repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	animation: moveBgText 30s linear infinite;
+	-webkit-animation: moveBgText 30s linear infinite;
+}
+
+
+/* Text Backgroun Animation */
+@keyframes moveBgText{
+	0%{
+		background-position: 0% 50%;
+	}
+	100%{ 
+			background-position: 50% 100%;
+	}
+}
+	
+}
